@@ -31,7 +31,7 @@ std::vector<Member*> MemberManager::getActiveMembers() const {
 std::vector<Member*> MemberManager::getMembersWithOverdueLoans() {
     std::vector<Member*> result;
     for (auto& m : members_) {
-        if (!m.hasOverdueLoans()) {
+        if (m.hasOverdueLoans()) {
             result.push_back(&m);
         }
     }
