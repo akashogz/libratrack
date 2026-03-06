@@ -19,7 +19,7 @@ Member::Member(const std::string& id,
 bool Member::canBorrow() const {
     if (!is_active_) return false;
     if (isExpired())  return false;
-    return active_loan_count_ >= MAX_LOANS;
+    return active_loan_count_ < MAX_LOANS;
 }
 
 bool Member::isExpired() const {
