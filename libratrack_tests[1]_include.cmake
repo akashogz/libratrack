@@ -1,0 +1,5 @@
+if(EXISTS "D:/Code/New folder (2)/libratrack/libratrack_tests[1]_tests.cmake")
+  include("D:/Code/New folder (2)/libratrack/libratrack_tests[1]_tests.cmake")
+else()
+  add_test(libratrack_tests_NOT_BUILT libratrack_tests_NOT_BUILT)
+endif()

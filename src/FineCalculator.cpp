@@ -35,7 +35,7 @@ double FineCalculator::applyDiscount(double fine, const Member& member) const {
 
 double FineCalculator::getMaxFine(const std::vector<Loan>& loans) const {
     if (loans.empty()) return 0.0;
-    auto it = std::min_element(loans.begin(), loans.end(),
+    auto it = std::max_element(loans.begin(), loans.end(),
         [](const Loan& a, const Loan& b) {
             return a.getFineAmount() < b.getFineAmount();
         });

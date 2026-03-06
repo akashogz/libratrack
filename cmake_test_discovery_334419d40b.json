@@ -1,0 +1,751 @@
+{
+  "tests": 77,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "Issue55_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "AverageLoanDurationOnlyCountsReturnedLoans",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_statistics_public.cpp",
+          "line": 8
+        }
+      ]
+    },
+    {
+      "name": "Issue56_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "PopularityScoreIsRatioNotSum",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_statistics_public.cpp",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "name": "Issue57_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "GetMostActiveMonthReturnsCorrectMonth",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_statistics_public.cpp",
+          "line": 41
+        }
+      ]
+    },
+    {
+      "name": "Issue58_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "GenerateTrendCountsEachPeriodIndependently",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_statistics_public.cpp",
+          "line": 57
+        }
+      ]
+    },
+    {
+      "name": "Issue47_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "FuzzyMatchFindsNearMatchesAtSeventyPercent",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_search_public.cpp",
+          "line": 16
+        }
+      ]
+    },
+    {
+      "name": "Issue48_Public",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "SearchByAuthorMatchesFirstName",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_search_public.cpp",
+          "line": 26
+        },
+        {
+          "name": "SearchByAuthorMatchesLastName",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_search_public.cpp",
+          "line": 34
+        }
+      ]
+    },
+    {
+      "name": "Issue49_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "FilterByGenreIsCaseInsensitive",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_search_public.cpp",
+          "line": 43
+        }
+      ]
+    },
+    {
+      "name": "Issue50_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "SearchByYearRangeIncludesBoundaryYears",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_search_public.cpp",
+          "line": 53
+        }
+      ]
+    },
+    {
+      "name": "Issue51_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "RankResultsReturnsBestMatchFirst",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_search_public.cpp",
+          "line": 64
+        }
+      ]
+    },
+    {
+      "name": "Issue27_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "GetMostBorrowedBooksReturnsTopByCount",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_report_public.cpp",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "name": "Issue28_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "GetOverdueReportOnlyContainsOverdueLoans",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_report_public.cpp",
+          "line": 20
+        }
+      ]
+    },
+    {
+      "name": "Issue29_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "GenerateMonthlyStatsMatchesCorrectMonth",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_report_public.cpp",
+          "line": 35
+        }
+      ]
+    },
+    {
+      "name": "Issue30_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "FormatCurrencyShowsTwoDecimalPlaces",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_report_public.cpp",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "name": "Issue31_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "CountActiveLoansExcludesReturnedLoans",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_report_public.cpp",
+          "line": 56
+        }
+      ]
+    },
+    {
+      "name": "Issue52_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "SendOverdueNoticesOnlySendsToMembersWithOverdueLoans",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_notifications_public.cpp",
+          "line": 8
+        }
+      ]
+    },
+    {
+      "name": "Issue53_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "FormatMessageUsesDisplayName",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_notifications_public.cpp",
+          "line": 25
+        }
+      ]
+    },
+    {
+      "name": "Issue54_Public",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ScheduleRemindersRespectsDaysBeforeParameter",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_notifications_public.cpp",
+          "line": 39
+        },
+        {
+          "name": "ScheduleRemindersDoesNotFireForWrongInterval",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_notifications_public.cpp",
+          "line": 58
+        }
+      ]
+    },
+    {
+      "name": "Issue06_Public",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "CanBorrowReturnsTrueWhenUnderLimit",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_member_public.cpp",
+          "line": 5
+        },
+        {
+          "name": "CanBorrowReturnsFalseAtLimit",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_member_public.cpp",
+          "line": 13
+        }
+      ]
+    },
+    {
+      "name": "Issue07_Public",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "IsExpiredReturnsFalseForFutureDate",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_member_public.cpp",
+          "line": 24
+        },
+        {
+          "name": "IsExpiredReturnsTrueForPastDate",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_member_public.cpp",
+          "line": 31
+        }
+      ]
+    },
+    {
+      "name": "Issue08_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "GetDisplayNameIsFirstSpaceLast",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_member_public.cpp",
+          "line": 39
+        }
+      ]
+    },
+    {
+      "name": "Issue09_Public",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "MembershipStatusIsExpiredForPastDate",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_member_public.cpp",
+          "line": 47
+        },
+        {
+          "name": "MembershipStatusIsActiveForFutureDate",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_member_public.cpp",
+          "line": 54
+        }
+      ]
+    },
+    {
+      "name": "Issue10_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "AddLoanIncrementsActiveLoanCount",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_member_public.cpp",
+          "line": 62
+        }
+      ]
+    },
+    {
+      "name": "Issue38_Public",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "FindByIDLocatesFirstMember",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_member_manager_public.cpp",
+          "line": 16
+        },
+        {
+          "name": "FindByIDLocatesAllMembers",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_member_manager_public.cpp",
+          "line": 23
+        }
+      ]
+    },
+    {
+      "name": "Issue39_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "DeactivateMemberSetsActiveFalse",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_member_manager_public.cpp",
+          "line": 31
+        }
+      ]
+    },
+    {
+      "name": "Issue40_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "GetMembersWithOverdueLoansReturnsOnlyOverdueMembers",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_member_manager_public.cpp",
+          "line": 42
+        }
+      ]
+    },
+    {
+      "name": "Issue41_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "UpdateEmailOnlyAffectsTargetMember",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_member_manager_public.cpp",
+          "line": 55
+        }
+      ]
+    },
+    {
+      "name": "Issue11_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "GetDaysOverdueIsNeverNegative",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_loan_public.cpp",
+          "line": 6
+        }
+      ]
+    },
+    {
+      "name": "Issue12_Public",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "IsReturnedFalseBeforeReturn",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_loan_public.cpp",
+          "line": 15
+        },
+        {
+          "name": "IsReturnedTrueAfterMarkReturned",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_loan_public.cpp",
+          "line": 21
+        }
+      ]
+    },
+    {
+      "name": "Issue13_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "DueDateIsFourteenDaysAfterCheckout",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_loan_public.cpp",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "name": "Issue14_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "ToStringUsesMMDDYYYYOrder",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_loan_public.cpp",
+          "line": 37
+        }
+      ]
+    },
+    {
+      "name": "Issue32_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "CheckoutDecrementsAvailableCopies",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_loan_manager_public.cpp",
+          "line": 15
+        }
+      ]
+    },
+    {
+      "name": "Issue33_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "ReturnBookIncrementsAvailableCopies",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_loan_manager_public.cpp",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "name": "Issue34_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "RenewLoanExtendsByFourteenDays",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_loan_manager_public.cpp",
+          "line": 44
+        }
+      ]
+    },
+    {
+      "name": "Issue35_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "GetActiveLoansExcludesReturnedLoans",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_loan_manager_public.cpp",
+          "line": 66
+        }
+      ]
+    },
+    {
+      "name": "Issue36_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "CheckoutRejectedWhenMemberAtLoanLimit",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_loan_manager_public.cpp",
+          "line": 82
+        }
+      ]
+    },
+    {
+      "name": "Issue37_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "ReturnBookCalculatesAndRecordsFine",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_loan_manager_public.cpp",
+          "line": 105
+        }
+      ]
+    },
+    {
+      "name": "Issue59_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "CheckoutUpdatesActiveLoanCountOnMember",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_loan_manager_public.cpp",
+          "line": 121
+        }
+      ]
+    },
+    {
+      "name": "Issue60_Public",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "RemoveBookFlagsOrCancelsActiveLoans",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_integration_public.cpp",
+          "line": 12
+        },
+        {
+          "name": "RemoveBookDoesNotAffectUnrelatedLoans",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_integration_public.cpp",
+          "line": 35
+        }
+      ]
+    },
+    {
+      "name": "Issue21_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "DailyRateIsPointTwoFive",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_fine_calculator_public.cpp",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "name": "Issue22_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "CalculateFineAppliesGracePeriodToOverdueDays",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_fine_calculator_public.cpp",
+          "line": 15
+        }
+      ]
+    },
+    {
+      "name": "Issue23_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "GetTotalFinesDoesNotCrash",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_fine_calculator_public.cpp",
+          "line": 28
+        }
+      ]
+    },
+    {
+      "name": "Issue24_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "DiscountAppliedToSeniorNotStudent",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_fine_calculator_public.cpp",
+          "line": 41
+        }
+      ]
+    },
+    {
+      "name": "Issue25_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "GetMaxFineReturnsHighestValue",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_fine_calculator_public.cpp",
+          "line": 59
+        }
+      ]
+    },
+    {
+      "name": "Issue26_Public",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "HasPendingFinesReturnsFalseWhenNoFines",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_fine_calculator_public.cpp",
+          "line": 70
+        },
+        {
+          "name": "HasPendingFinesReturnsTrueWhenFinesExist",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_fine_calculator_public.cpp",
+          "line": 78
+        }
+      ]
+    },
+    {
+      "name": "Issue42_Public",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "AddDaysRollsOverMonthBoundary",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_date_utils_public.cpp",
+          "line": 5
+        },
+        {
+          "name": "AddDaysRollsOverYearBoundary",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_date_utils_public.cpp",
+          "line": 12
+        }
+      ]
+    },
+    {
+      "name": "Issue43_Public",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "DaysBetweenIsPositiveWhenDate2IsLater",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_date_utils_public.cpp",
+          "line": 20
+        },
+        {
+          "name": "DaysBetweenIsZeroForSameDate",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_date_utils_public.cpp",
+          "line": 26
+        }
+      ]
+    },
+    {
+      "name": "Issue44_Public",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "Year2000IsLeap",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_date_utils_public.cpp",
+          "line": 31
+        },
+        {
+          "name": "Year1900IsNotLeap",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_date_utils_public.cpp",
+          "line": 35
+        },
+        {
+          "name": "Year2024IsLeap",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_date_utils_public.cpp",
+          "line": 41
+        },
+        {
+          "name": "Year2100IsNotLeap",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_date_utils_public.cpp",
+          "line": 45
+        }
+      ]
+    },
+    {
+      "name": "Issue45_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "FormatDateProducesCorrectMonth",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_date_utils_public.cpp",
+          "line": 50
+        }
+      ]
+    },
+    {
+      "name": "Issue46_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "ParseDateExtractsCorrectMonthAndDay",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_date_utils_public.cpp",
+          "line": 61
+        }
+      ]
+    },
+    {
+      "name": "Issue15_Public",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "FindByISBNReturnsCorrectBook",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_catalog_public.cpp",
+          "line": 13
+        },
+        {
+          "name": "FindByISBNReturnsNulloptForMissing",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_catalog_public.cpp",
+          "line": 21
+        }
+      ]
+    },
+    {
+      "name": "Issue16_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "SearchByTitleIsCaseInsensitive",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_catalog_public.cpp",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "name": "Issue17_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "AddBookRejectsDuplicateISBN",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_catalog_public.cpp",
+          "line": 37
+        }
+      ]
+    },
+    {
+      "name": "Issue18_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "RemoveBookDeletesTheCorrectEntry",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_catalog_public.cpp",
+          "line": 46
+        }
+      ]
+    },
+    {
+      "name": "Issue19_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "SortByTitleProducesAscendingOrder",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_catalog_public.cpp",
+          "line": 59
+        }
+      ]
+    },
+    {
+      "name": "Issue20_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "GetAvailableBooksExcludesZeroCopies",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_catalog_public.cpp",
+          "line": 73
+        }
+      ]
+    },
+    {
+      "name": "Issue01_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "IsAvailableReturnsFalseWhenZeroCopies",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_book_public.cpp",
+          "line": 5
+        }
+      ]
+    },
+    {
+      "name": "Issue02_Public",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ValidateISBNRejectsLengthNotThirteen",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_book_public.cpp",
+          "line": 12
+        },
+        {
+          "name": "ValidateISBNAcceptsThirteenDigits",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_book_public.cpp",
+          "line": 17
+        }
+      ]
+    },
+    {
+      "name": "Issue03_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "DecrementCopiesDoesNotGoBelowZero",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_book_public.cpp",
+          "line": 23
+        }
+      ]
+    },
+    {
+      "name": "Issue04_Public",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "SetPublicationYearRejectsZero",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_book_public.cpp",
+          "line": 32
+        },
+        {
+          "name": "SetPublicationYearRejectsNegative",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_book_public.cpp",
+          "line": 39
+        }
+      ]
+    },
+    {
+      "name": "Issue05_Public",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "GetFullTitleFormatIsTitleByAuthor",
+          "file": "D:\\Code\\New folder (2)\\libratrack\\tests\\public\\test_book_public.cpp",
+          "line": 47
+        }
+      ]
+    }
+  ]
+}
