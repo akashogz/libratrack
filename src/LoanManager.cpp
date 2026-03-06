@@ -65,7 +65,13 @@ bool LoanManager::renewLoan(const std::string& loan_id) {
 }
 
 std::vector<Loan> LoanManager::getActiveLoans() const {
-    return loans_;
+    std::vector<Loan> active;
+    for (const auto& loan : loans_) {
+        if (!loan.isReturned()) {
+            active.push_back(loan);
+        }
+    }
+    return active;
 }
 
 Loan* LoanManager::findLoan(const std::string& loan_id) {
